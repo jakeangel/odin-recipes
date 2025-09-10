@@ -24,6 +24,9 @@ a{
   text-decoration:none;  
   color:black;
   display:inline-block;
+  background-color:white;
+  padding: 5px 10px;
+  
 }
 
 li{
@@ -38,9 +41,12 @@ img{
     padding:15px;
 }
 
-/* a:hover{
-    color
- */
+a:hover{
+   background-color:rgb(31, 92, 145);
+   
+   
+}
+
 
 @media (min-width: 500px){
     body{
