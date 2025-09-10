@@ -26,6 +26,7 @@ a{
   display:inline-block;
   background-color:white;
   padding: 5px 10px;
+  border-radius:5px;
   
 }
 
@@ -45,6 +46,18 @@ a:hover{
    background-color:rgb(31, 92, 145);
    
    
+}
+
+.main-blog{
+    font-size:20px;
+    text-align:center;
+    width:85%;
+    margin:0 auto 30px auto;
+    min-height:200px;
+    padding:8px 16px;
+    background-color: rgba(46, 138, 227, 0.38);
+    border-radius:5px;
+    box-shadow: 10px 10px;
 }
 
 
