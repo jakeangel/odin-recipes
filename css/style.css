@@ -3,12 +3,27 @@
     margin:0;
     box-sizing:border-box;
 }
+
+body{
+    background-image:url('/images/kitch2.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
 header{
     width:75%;
     margin: 50px auto;
 }
 h1,ul{
     text-align:center;
+}
+
+a{
+  text-decoration:none;  
+  color:black;
+  display:inline-block;
 }
 
 li{
@@ -18,4 +33,31 @@ li{
 
 img{
     display:block;
+    width:250px;
+    height:auto;
+    padding:15px;
+}
+
+/* a:hover{
+    color
+ */
+
+@media (min-width: 500px){
+    body{
+    background-image:url('/images/kitchen-bg.jpg');
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    
+   
+
+}
+
+    
+}
+
+@media (min-width: 1027px){
+
+    
 }
