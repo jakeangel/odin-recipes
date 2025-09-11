@@ -48,8 +48,7 @@ img{
 
 a:hover{
    background-color:rgb(31, 92, 145);
-   
-   
+      
 }
 
 .main-blog{
@@ -103,13 +102,11 @@ h3{
 
 }
 
-.ingredient-list li{
-    display:block;
-}
-
+.ingredient-list li,
 ol li{
     display:block;
 }
+
 
 .homebtn{
     margin-bottom:20px;
@@ -140,7 +137,3 @@ ol li{
     
 }
 
-@media (min-width: 1027px){
-
-    
-}
