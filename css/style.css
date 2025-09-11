@@ -16,7 +16,7 @@ header{
     width:75%;
     margin: 50px auto;
 }
-h1,h2,ul,h3,p{
+h1,h2,ul,p,.ingredient-sec{
     text-align:center;
 }
 
@@ -91,11 +91,17 @@ main{
     margin:auto;
     background-color:rgba(250, 235, 215, 0.7);
     padding:15px 15px;
+    font-size:1.2rem;
     
 }
 
 section{
     margin:20px 0;
+}
+
+h3{
+    margin:0 10px;
+
 }
 
 .ingredient-list li{
@@ -106,13 +112,17 @@ ol li{
     display:block;
 }
 
+.homebtn{
+    margin-bottom:20px;
+
+}
 
 
 
 
 
 
-
+/************** media queries ******/
 
 
 
